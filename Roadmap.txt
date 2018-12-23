@@ -1,0 +1,31 @@
+Tentative roadmap for NMT
+
+## 1. Pytorch on Conda  with https://anaconda.org/peterjc123/pytorch
+seems to update to python3.6.7
+Installs Pytorch 0.3, when Pytorch 1.0 is required for OpenMT
+
+## 2 https://github.com/OpenNMT/OpenNMT-py
+See requirements (alternatively, floydhub)
+
+### 3 check floydhub
+https://www.floydhub.com/nballier/projects/opennmt-py/jobs
+$$ note credit card required for full regitration 
+
+MBP-de-toor-2:~ nballier$ pip install floyd-cli
+Collecting floyd-cli
+  Could not fetch URL https://pypi.python.org/simple/floyd-cli/: There was a problem confirming the ssl certificate: [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:590) - skipping
+  Could not find a version that satisfies the requirement floyd-cli (from versions: )
+No matching distribution found for floyd-cli
+MBP-de-toor-2:~ nballier$
+
+## 4 https://blog.floydhub.com/the-transformer-in-pytorch/
+
+
+## 5 tuning methods 
+https://blog.floydhub.com/guide-to-hyperparameters-search-for-deep-learning-models/
+
+## CUDA ...
+
+
+## Guillaume Klein @ Systran has:
+https://github.com/OpenNMT/OpenNMT-tf
